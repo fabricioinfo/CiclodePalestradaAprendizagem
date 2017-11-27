@@ -21,60 +21,97 @@
                 android:layout_height="wrap_content"
                 android:hint="Nome Completo"
                 android:id="@+id/edt_nome"
-                android:inputType="text" />
+                android:inputType="text"
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nome Completo da Mãe"
                 android:id="@+id/edt_mae"
-                android:inputType="text" />
+                android:inputType="text"
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Data de Nascimento"
                 android:id="@+id/edt_masc"
-                android:inputType="date" />
+                android:inputType="date"
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="CPF"
                 android:id="@+id/edt_cpf"
-                android:inputType="number" />
+                android:inputType="number"
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="RG"
                 android:id="@+id/edt_rg"
-                android:inputType="number" />
+                android:inputType="number"
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Telefone"
                 android:id="@+id/edt_tel"
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email"
                 android:id="@+id/edt_email"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
 
             <Spinner
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/spn_palestras"></Spinner>
+                android:layout_height="45dp"
+                android:id="@+id/spn_palestras"
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></Spinner>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn_cadastrar"
-                android:text="Cadastrar Participante" />
+                android:text="Cadastrar Participante"
+
+                android:layout_marginTop="15dp"
+                android:layout_marginBotton="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
         </LinearLayout>
 
     </ScrollView>
