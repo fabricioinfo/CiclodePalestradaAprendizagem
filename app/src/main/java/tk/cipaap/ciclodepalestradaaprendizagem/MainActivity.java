@@ -1,5 +1,6 @@
 package tk.cipaap.ciclodepalestradaaprendizagem;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -46,7 +47,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int selected = item.getItemId();
 
         if(selected == R.id.nav_login){
-            Toast.makeText(getBaseContext(),"Funcionou Aorta!!!",Toast.LENGTH_LONG).show();
+            Intent chamar = new Intent(getBaseContext(), CadastroActivity.class);
+            startActivity(chamar);
         }
         return true;
     }

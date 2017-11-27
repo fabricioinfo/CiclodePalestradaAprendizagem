@@ -31,6 +31,39 @@
             android:hint="Data de Nascimento"
             android:id="@+id/edt_masc"
             android:inputType="date" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CPF"
+            android:id="@+id/edt_cpf"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RG"
+            android:id="@+id/edt_rg"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefone"
+            android:id="@+id/edt_tel"
+            android:inputType="phone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/edt_email"
+            android:inputType="textEmailAddress" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/support_simple_spinner_dropdown_item"></Spinner>
     </ScrollView>
 
 </LinearLayout>
