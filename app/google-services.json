@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1019902689147",
+    "firebase_url": "https://ciclo-de-palestra.firebaseio.com",
+    "project_id": "ciclo-de-palestra",
+    "storage_bucket": "ciclo-de-palestra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019902689147:android:dadb6f6515f70372",
+        "android_client_info": {
+          "package_name": "tk.cipaap.ciclodepalestradaaprendizagem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019902689147-p1e2shilda421gi0pthorc4lml4fd1o7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tk.cipaap.ciclodepalestradaaprendizagem",
+            "certificate_hash": "687e590f864319ae68c07732b995f3a52ad8515b"
+          }
+        },
+        {
+          "client_id": "1019902689147-o3b8uvrltk229q7gu4rfmkd02c6uvt7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlrWw4Dse8zLKtefnYgyDETrn_y8u2myM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019902689147-o3b8uvrltk229q7gu4rfmkd02c6uvt7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
