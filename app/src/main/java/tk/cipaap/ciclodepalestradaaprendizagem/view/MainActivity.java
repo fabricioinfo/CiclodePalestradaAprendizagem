@@ -1,4 +1,4 @@
-package tk.cipaap.ciclodepalestradaaprendizagem;
+package tk.cipaap.ciclodepalestradaaprendizagem.view;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,11 +8,9 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.Toast;
 import android.support.design.widget.NavigationView;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.database.FirebaseDatabase;
+
+import tk.cipaap.ciclodepalestradaaprendizagem.R;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     private DrawerLayout sidebar;
