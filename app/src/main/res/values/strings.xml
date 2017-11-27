@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ciclo de Palestra da Aprendizagem</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
 </resources>
