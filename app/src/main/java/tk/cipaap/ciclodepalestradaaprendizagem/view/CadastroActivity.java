@@ -71,7 +71,6 @@ public class CadastroActivity extends AppCompatActivity {
 
                 final Task<AuthResult> authResultTask = auth.createUserWithEmailAndPassword(edt_email.getText().toString(),
                         edt_senha.getText().toString());
-                if (authResultTask.isComplete()) {
                     if (authResultTask.isSuccessful()) {
                         Toast.makeText(getBaseContext(), "Cadastro realizado com sucesso", Toast.LENGTH_LONG).show();
                         FirebaseUser user = auth.getCurrentUser();
@@ -82,7 +81,6 @@ public class CadastroActivity extends AppCompatActivity {
                         Toast.makeText(getBaseContext(), "Cadastro não realizado tente novamente", Toast.LENGTH_LONG).show();
 
                     }
-                }
 
 
             }
