@@ -10,20 +10,20 @@ public class Participante {
     private String cpf;
     private String rg;
     private String email;
-    private  String telefone;
+    private String tel;
     private int palestra;
-    private String data_nasc;
+    private String data;
 
-    public Participante(String nome, String mae, String cpf, String rg, String email, String telefone, int palestra,String data_nasc) {
+    public Participante(String nome, String mae, String cpf, String rg, String email, String tel, int palestra, String data) {
 
         this.nome = nome;
         this.mae = mae;
         this.cpf = cpf;
         this.rg = rg;
         this.email = email;
-        this.telefone = telefone;
+        this.tel = tel;
         this.palestra = palestra;
-        this.data_nasc=data_nasc;
+        this.data = data;
     }
 
     public Participante(){
@@ -32,22 +32,22 @@ public class Participante {
         this.cpf = "";
         this.rg = "";
         this.email = "";
-        this.telefone = "";
+        this.tel = "";
         this.palestra = -1;
-        this.data_nasc="";
+        this.data = "";
     }
 
     public boolean ehVazio() {
         return (nome.equalsIgnoreCase("")||mae.equalsIgnoreCase("")||cpf.equalsIgnoreCase("")
-        || rg.equalsIgnoreCase("")||email.equalsIgnoreCase("")||telefone.equalsIgnoreCase("")||palestra==-1);
+                || rg.equalsIgnoreCase("") || email.equalsIgnoreCase("") || tel.equalsIgnoreCase("") || palestra == -1);
     }
 
-    public String getData_nasc() {
-        return data_nasc;
+    public String getData() {
+        return data;
     }
 
-    public void setData_nasc(String data_nasc) {
-        this.data_nasc = data_nasc;
+    public void setData(String data) {
+        this.data = data;
     }
 
     public String getNome() {
@@ -90,12 +90,12 @@ public class Participante {
         this.email = email;
     }
 
-    public String getTelefone() {
-        return telefone;
+    public String getTel() {
+        return tel;
     }
 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
+    public void setTel(String tel) {
+        this.tel = tel;
     }
 
     public int getPalestra() {
